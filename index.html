@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driving Academy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="Driving academy.png" alt="Driving Academy Logo" class="logo">
+        <h1>Welcome to Driving Academy</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#group">Join Our Group</a>
+            <a href="#submit-test">Request a Test</a>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>About Our Server</h2>
+            <p>Welcome to Driving Academy! Here, you can request a virtual driving test and join our Roblox community.</p>
+        </section>
+        <section id="group">
+            <h2>Join Our Roblox Group</h2>
+            <p>Be a part of our community! Click the link below to join:</p>
+            <a href="https://www.roblox.com/communities/35274634/Driving-Academy#!/about" target="_blank" class="button">Join Our Group</a>
+        </section>
+        <section id="submit-test">
+            <h2>Request a Driving Test</h2>
+            <form id="webhook-form">
+                <label for="username">Roblox Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="test-type">What would you like to be tested for?</label>
+                <textarea id="test-type" name="test-type" rows="4" required></textarea>
+                
+                <button type="submit" class="button">Submit Request</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Driving Academy</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
