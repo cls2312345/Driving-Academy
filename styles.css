@@ -41,6 +41,14 @@ header nav a:hover {
     background-color: #388E3C;
 }
 
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
 /* Section Styles */
 main {
     flex: 1;
@@ -130,12 +138,4 @@ footer {
     background: #333;
     color: white;
     font-size: 0.9rem;
-/* Logo Styling */
-.logo {
-    display: block;
-    margin: 0 auto;
-    width: 120px; /* Adjust size as needed */
-    height: auto;
-    margin-bottom: 10px;
 }
-
